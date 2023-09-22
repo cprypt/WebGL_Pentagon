@@ -8,7 +8,7 @@ window.onload = function init() {
     gl = WebGLUtils.setupWebGL(canvas);
     if (!gl) { alert("WebGL isn't available"); }
 
-    // Four Vertices
+    // Five Vertices
     var vertices = [
         vec2(-0.1, -0.2),
         vec2(-0.2, 0),
